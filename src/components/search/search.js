@@ -12,14 +12,14 @@ const Search = ({ onSearchChange }) => {
         )
             .then((response) => response.json())
             .then((response) => {
-                return {
-                    options: response.data.map((city) => {
-                        return {
-                            value: `${city.latitude} ${city.longitude}`,
-                            label: `${city.name}, ${city.country}`,
-                        };
-                    }),
-                };
+                const options = response.data.map((city) => ({
+                    value: `${city.latitude} ${city.longitude}`,
+                    label: `${city.name}, ${city.country}`,
+                }));
+                return { options };
+            })
+            .catch((error) => {
+                console.error(error);
             });
     };
 
