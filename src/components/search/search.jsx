@@ -20,6 +20,7 @@ const Search = ({ onSearchChange }) => {
             })
             .catch((error) => {
                 console.error(error);
+                return { options: [] };
             });
     };
 
