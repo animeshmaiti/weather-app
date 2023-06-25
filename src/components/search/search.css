@@ -1,0 +1,14 @@
+.custom-search .css-1wa3eu0-placeholder,
+.custom-search .css-1okebmr-indicatorSeparator,
+.custom-search .css-1okebmr-dropdownIndicator,
+.custom-search .css-yk16xz-control {
+  background: linear-gradient(to right, #4a4a4a, #000000);
+  color: white;
+}
+
+.custom-search .css-yk16xz-control,
+.custom-search .css-yk16xz-control:hover,
+.custom-search .css-yk16xz-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}

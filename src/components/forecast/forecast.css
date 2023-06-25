@@ -1,10 +1,11 @@
 .title {
+    color: #e0d9d9;
     font-size: 23px;
     font-weight: 700;
 }
 
 .daily-item {
-    background-color: #282828;
+    background-color: #4a4a4a;
     border-radius: 15px;
     height: 40px;
     margin: 5px;
@@ -18,9 +19,8 @@
 .icon-small {
     width: 40px;
 }
-
 .day {
-    color: #212121;
+    color: #fff;
     flex: 1 1;
     font-weight: 600;
     margin-left: 15px;
@@ -30,10 +30,11 @@
     flex: 1 1;
     margin-right: 15px;
     text-align: right;
+    color: #fff;
 }
 
 .temp {
-    color: #757575;
+    color: #e0d9d9;
 }
 
 .daily-details-grid {
@@ -54,9 +55,9 @@
 }
 
 .daily-details-grid-item label:first-child {
-    color: #5a5a5a;
+    color: #c4c4c4;
 }
 
 .daily-details-grid-item label:last-child {
-    color: #212121;
+    color: #fff;
 }
